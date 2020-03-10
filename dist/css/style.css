@@ -1,0 +1,100 @@
+#scorevu_form {
+	text-align: center;
+}
+
+.connectionForm> div {
+	margin: 0.25em;
+}
+
+.team,
+.gameTime {
+	padding: 1em 0.5em;
+	background: lightgray;
+	border: 2px solid darkgray;
+	border-radius: 0.25em;
+	vertical-align: top;
+}
+
+.home {
+	float: right;
+	text-align: center;
+}
+
+.away {
+	float: left;
+	text-align: center;
+}
+
+.gameTime {
+	display: inline-block;
+}
+
+.period,
+.shotclock {
+	display: inline-block;
+}
+
+.numberControl {
+	padding: 1em 0.5em;
+	text-align: left;
+}
+
+.numberControl .label {
+	font-size: 20pt;
+}
+
+.possession,
+.gameClock {
+	text-align: center;
+}
+
+.gameClock>.clock,
+.numberControl .counter {
+	display: inline-block;
+	font-size: 36pt;
+	background-color: black;
+	padding: 0.25em;
+	vertical-align: top;
+	min-width: 61px;
+	text-align: center;
+}
+
+.gameClock>.clock {
+	font-size: 42pt;
+}
+
+.numberControl .buttons {
+	display: inline-block;
+	vertical-align: top;
+}
+
+button {
+	border: 1px solid darkgray;
+	border-radius: 4px;
+	min-width: 40px;
+	min-height: 40px;
+}
+
+button.img-btn {
+}
+
+button img {
+	width: 25px;
+	height: 25px;
+}
+
+.color-orange {
+	color: orange;
+}
+
+.color-red {
+	color: red;
+}
+
+.color-green {
+	color: green;
+}
+
+.active {
+	color: orange;
+}
